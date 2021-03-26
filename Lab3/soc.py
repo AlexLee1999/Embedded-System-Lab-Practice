@@ -21,17 +21,14 @@ def live_plotter(x_vec,y1_data,line1,identifier='',pause_time=0.1):
     return line1
 
 
-HOST='192.168.0.145'
+HOST='192.168.0.172'
 PORT=65432
 count = 0
 count_lst = np.linspace(0,1,11)[0:-1]
 x_lst = []
-y_lst = []
 x_avg = np.zeros(np.shape(count_lst))
-y_avg = np.zeros(np.shape(count_lst))
 line1 = []
-line2 = []
-line3 = []
+
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.bind((HOST,PORT))
     s.listen()
@@ -46,17 +43,12 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                 print(j_data)
                 count += 1
                 x_lst.append(j_data['x'])
-                y_lst.append(j_data['y'])
             except:
                 print('decode error')
             if count % 10 == 0:
                 x_avg[-1] = (sum(x_lst)/10)
                 x_lst.clear()
-                y_avg[-1] = (sum(y_lst)/10)
-                y_lst.clear()
                 line1 = live_plotter(count_lst, x_avg, line1)
-                line2 = live_plotter(count_lst, y_avg, line2)
                 x_avg = np.append(x_avg[1:],0.0)
-                y_avg = np.append(y_avg[1:],0.0)
 
                 
