@@ -1,0 +1,169 @@
+Discovered device 74:b6:d8:81:08:9b
+Discovered device 2c:f0:ec:c5:fe:d4
+Discovered device 4a:ac:c2:85:e6:7d
+Discovered device 04:57:eb:5f:2e:72
+Discovered device 56:66:9e:9c:4f:7c
+Discovered device 4d:3e:40:d7:ec:43
+Discovered device 17:57:e7:65:1f:ba
+Discovered device 86:2a:fd:78:c5:90
+Discovered device 75:32:71:6f:0a:05
+Discovered device 5d:ed:23:58:71:02
+Discovered device 4f:7f:f3:36:0f:c3
+Discovered device 60:d6:33:05:16:aa
+Discovered device 3a:67:94:11:3c:0d
+Discovered device 6f:28:52:2c:5d:69
+Discovered device 62:8b:1a:ff:ee:c5
+Discovered device 5b:24:57:66:eb:1d
+Discovered device 3a:83:b8:30:80:f3
+Discovered device f7:e7:eb:85:9a:8c
+Discovered device 13:93:67:c1:25:9c
+Discovered device 5d:56:d3:d4:dc:d6
+Discovered device 72:9c:73:08:1b:c1
+Discovered device 77:f5:e8:67:7d:a3
+Received new data from 04:57:eb:5f:2e:72
+Discovered device 42:be:9b:97:86:e0
+Discovered device 44:8f:04:78:76:9b
+Discovered device 15:dc:0c:80:84:7a
+Discovered device 53:17:76:12:05:00
+Discovered device 66:28:c6:e0:6b:0f
+Discovered device 7f:f5:a9:80:d2:fb
+Discovered device 36:3b:83:6f:76:c1
+Received new data from 75:32:71:6f:0a:05
+Discovered device 6f:20:56:a1:d8:79
+0 : Device  74:b6:d8:81:08:9b ( random ) , RSSI=  -75  dB
+Manufacturer = 06000109200261c576754eb0f5909712ed2dbd282e47c78fad2d621e74
+1 : Device  2c:f0:ec:c5:fe:d4 ( random ) , RSSI=  -67  dB
+Manufacturer = 060001092002f4e2aba680789b7c15cfc9d0bf00103b459a06cb46f13b
+2 : Device  4a:ac:c2:85:e6:7d ( random ) , RSSI=  -77  dB
+Flags = 06
+Manufacturer = 4c001006491df9091a58
+3 : Device  04:57:eb:5f:2e:72 ( random ) , RSSI=  -65  dB
+Flags = 1a
+Manufacturer = 4c00130100
+4 : Device  56:66:9e:9c:4f:7c ( random ) , RSSI=  -74  dB
+Flags = 1a
+Tx Power = 08
+Manufacturer = 4c0010072a1b176648d338
+5 : Device  4d:3e:40:d7:ec:43 ( random ) , RSSI=  -75  dB
+Manufacturer = 06000109200287f2ef394a989927e07c6d9387dc49d849dc8e5b2c0b3a
+6 : Device  17:57:e7:65:1f:ba ( random ) , RSSI=  -71  dB
+Flags = 1a
+Manufacturer = 4c000512000000000000000001457ad51b9efc8b3600
+7 : Device  86:2a:fd:78:c5:90 ( public ) , RSSI=  -81  dB
+Flags = 06
+16b Service Data = f7fd018220e6a256895afd41fbf9852ecb3a300000000003
+8 : Device  75:32:71:6f:0a:05 ( random ) , RSSI=  -70  dB
+Flags = 1a
+Tx Power = 0c
+Manufacturer = 4c0010064e1d4bce6168
+9 : Device  5d:ed:23:58:71:02 ( random ) , RSSI=  -81  dB
+Flags = 1a
+Tx Power = 07
+Manufacturer = 4c001006521dc6abea08
+10 : Device  4f:7f:f3:36:0f:c3 ( random ) , RSSI=  -68  dB
+Flags = 1a
+Tx Power = 0c
+Manufacturer = 4c001007081ba23ce49c38
+11 : Device  60:d6:33:05:16:aa ( random ) , RSSI=  -57  dB
+Flags = 1a
+Tx Power = 0c
+Manufacturer = 4c001006091d79dee138
+12 : Device  3a:67:94:11:3c:0d ( random ) , RSSI=  -43  dB
+Manufacturer = 0600010920025acc3603733a36400f63d91b166c0dcf833a4d9598e59c
+13 : Device  6f:28:52:2c:5d:69 ( random ) , RSSI=  -60  dB
+Flags = 1a
+Tx Power = 08
+Manufacturer = 4c0010066b1e8b1e23b6
+14 : Device  62:8b:1a:ff:ee:c5 ( random ) , RSSI=  -79  dB
+Manufacturer = 06000109200279356df9720c0b003ff54401405783ddba4b515e4a498f
+15 : Device  5b:24:57:66:eb:1d ( random ) , RSSI=  -54  dB
+Flags = 1a
+Tx Power = 06
+Manufacturer = 4c0010073c1fc259780828
+16 : Device  3a:83:b8:30:80:f3 ( random ) , RSSI=  -72  dB
+Manufacturer = 0600010921021a24bba6c5844c4150544f502d4c44554a344c5649
+17 : Device  f7:e7:eb:85:9a:8c ( random ) , RSSI=  -59  dB
+Flags = 06
+Complete 16b Services = 0000a000-0000-1000-8000-00805f9b34fb
+Complete Local Name = Button
+18 : Device  13:93:67:c1:25:9c ( random ) , RSSI=  -76  dB
+Manufacturer = 060001092002df9d4c9b983b5ec3154334d4ab14607e9731b9cae129f1
+19 : Device  5d:56:d3:d4:dc:d6 ( random ) , RSSI=  -68  dB
+Flags = 1a
+Tx Power = 0c
+Manufacturer = 4c0010060c1db784b778
+20 : Device  72:9c:73:08:1b:c1 ( random ) , RSSI=  -72  dB
+Flags = 1a
+Tx Power = 0c
+Manufacturer = 4c001006471d4bf94b78
+21 : Device  77:f5:e8:67:7d:a3 ( random ) , RSSI=  -81  dB
+Flags = 1a
+Tx Power = 07
+Manufacturer = 4c001006121d3b218718
+22 : Device  42:be:9b:97:86:e0 ( random ) , RSSI=  -71  dB
+Flags = 1a
+Tx Power = 08
+Manufacturer = 4c0010072a1bb91b91e218
+23 : Device  44:8f:04:78:76:9b ( random ) , RSSI=  -69  dB
+Flags = 1a
+Tx Power = 0c
+Manufacturer = 4c0010051318319dd1
+24 : Device  15:dc:0c:80:84:7a ( random ) , RSSI=  -87  dB
+Manufacturer = 0600010920025c777e141be7db6b9cab802b02d8a5a821ab5e76d6a6c2
+25 : Device  53:17:76:12:05:00 ( random ) , RSSI=  -81  dB
+Flags = 1a
+Tx Power = 0c
+Manufacturer = 4c0010060e19bb124118
+26 : Device  66:28:c6:e0:6b:0f ( random ) , RSSI=  -79  dB
+Flags = 1a
+Tx Power = 08
+Manufacturer = 4c001007211b344340ff28
+27 : Device  7f:f5:a9:80:d2:fb ( random ) , RSSI=  -85  dB
+Flags = 1a
+Tx Power = 08
+Manufacturer = 4c001006281a992ef11d
+28 : Device  36:3b:83:6f:76:c1 ( random ) , RSSI=  -87  dB
+Manufacturer = 0600010920020497de6a71ff271652d383ea14dadf93b405f4a7801b0e
+29 : Device  6f:20:56:a1:d8:79 ( random ) , RSSI=  -85  dB
+Flags = 1a
+Tx Power = 07
+Manufacturer = 4c001006091929b62438
+Enter your device number: Device 17
+f7:e7:eb:85:9a:8c
+Connecting...
+Services...
+Service <uuid=Generic Access handleStart=1 handleEnd=7>
+Service <uuid=Generic Attribute handleStart=8 handleEnd=10>
+Service <uuid=b000 handleStart=11 handleEnd=13>
+Service <uuid=a000 handleStart=14 handleEnd=65535>
+Characteristic <a001>
+Characteristic <b001>
+b'\x00\x00\x00\x00\x00\x00\x00\x00'
+b'\x00'
+b'\x16@P\x06\x0b\x00\x00\x00'
+0xb06504016
+b'\x00\x00\x00\x00\x00\x00\x00\x00'
+0x0
+b'\x16@P\x06\x0b\x00\x00\x00'
+0xb06504016
+b'\x00\x00\x00\x00\x00\x00\x00\x00'
+0x0
+Wait for notification
+b'\x16@P\x06\x0b\x00\x00\x00'
+0xb06504016
+b'\x00\x00\x00\x00\x00\x00\x00\x00'
+0x0
+Wait for notification
+b'\x16@P\x06\x0b\x00\x00\x00'
+0xb06504016
+b'\x00\x00\x00\x00\x00\x00\x00\x00'
+0x0
+Wait for notification
+Wait for notification
+Wait for notification
+Wait for notification
+Wait for notification
+Wait for notification
+Wait for notification
+Wait for notification
+Wait for notification
