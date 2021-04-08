@@ -19,9 +19,9 @@ public:
         _ble(ble),
         _event_queue(event_queue),
         _led1(LED1, 1),
-        _actuated_led(LED2, 0),//
-        _led_uuid(LEDService::LED_SERVICE_UUID),//
-        _led_service(NULL),//
+        _actuated_led(LED2, 0),
+        _led_uuid(LEDService::LED_SERVICE_UUID),
+        _led_service(NULL),
         _button(BLE_BUTTON_PIN_NAME, BLE_BUTTON_PIN_PULL),
         _button_service(NULL),
         _button_uuid(ButtonService::BUTTON_SERVICE_UUID),
@@ -46,7 +46,7 @@ private:
         }
         _led_service = new LEDService(_ble, false);//
 
-        _ble.gattServer().onDataWritten(this, &BatteryDemo::on_data_written);//
+        _ble.gattServer().onDataWritten(this, &BatteryDemo::on_data_written);
         print_mac_address();
 
         /* Setup primary service. */
@@ -68,7 +68,7 @@ private:
         );
 
         _adv_data_builder.setFlags();
-        _adv_data_builder.setLocalServiceList(mbed::make_Span(&_led_uuid, 1));//
+        _adv_data_builder.setLocalServiceList(mbed::make_Span(&_led_uuid, 1));
         _adv_data_builder.setLocalServiceList(mbed::make_Span(&_button_uuid, 1));
         _adv_data_builder.setName(DEVICE_NAME);
 
@@ -111,7 +111,7 @@ private:
     void button_released(void) {
         _event_queue.call(Callback<void(long long int)>(_button_service, &ButtonService::updateButtonState), 0);
     }
-    void on_data_written(const GattWriteCallbackParams *params) {//
+    void on_data_written(const GattWriteCallbackParams *params) {
         if ((params->handle == _led_service->getValueHandle()) && (params->len == 1)) {
             _actuated_led = *(params->data);
         }
@@ -132,10 +132,10 @@ private:
     events::EventQueue &_event_queue;
 
     DigitalOut  _led1;
-    DigitalOut _actuated_led;//
+    DigitalOut _actuated_led;
 
     UUID _led_uuid;//
-    LEDService *_led_service;//
+    LEDService *_led_service;
     InterruptIn _button;
     ButtonService *_button_service;
 
