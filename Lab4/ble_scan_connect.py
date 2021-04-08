@@ -3,6 +3,8 @@ from bluepy.btle import Scanner, DefaultDelegate
 
 led_light = bytes(0x00)
 ID = 0
+
+
 class ScanDelegate(DefaultDelegate):
     def __init__(self):
         DefaultDelegate.__init__(self)
@@ -14,12 +16,11 @@ class ScanDelegate(DefaultDelegate):
     def handleNotification(self, cHandle, data):
         global ID
         ID = data
-        
-        
-        
+
+
 scanner = Scanner().withDelegate(ScanDelegate())
 devices = scanner.scan(3.0)
-n=0
+n = 0
 for dev in devices:
     print(n, ": Device ",dev.addr, "(", dev.addrType, ")", ", RSSI= ", dev.rssi, " dB" )
     n += 1
